@@ -2,6 +2,32 @@
 
 }
 
-.error {
+.input {
+    box-sizing: border-box;
+    width: 200px;
+    padding: 5px 2px;
+    border-radius: 2px 0 0 2px;
+    border: 1px solid black;
+}
+
+.input:focus-visible {
+    outline: none;
+}
+
+.button {
+    padding: 5px;
+    border-radius: 0 2px 2px 0;
+    border: 1px solid black;
+    background: white;
+    margin-right: 5px;
+}
+
+.errorInput {
     border: 1px solid red;
+    border-radius: 2px 0 0 2px;
+}
+
+.errorMessage {
+    display: block;
+    color: red;
 }
