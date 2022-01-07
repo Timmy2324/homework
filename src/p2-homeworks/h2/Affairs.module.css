@@ -1,3 +1,23 @@
 .someClass {
 
 }
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+.affairName {
+    width: 120px;
+}
+
+.affairPriority {
+    width: 72px;
+}
+
+.buttonsWrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 230px;
+}
