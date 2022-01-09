@@ -20,7 +20,8 @@ const Greeting: React.FC<GreetingPropsType> = (
 
     return (
         <div className={s.wrapper}>
-            <SuperInputText value={name} onChange={setNameCallback} onKeyPress={onKeyPressAddUser} error={error} onBlur={setNameCallback}/>
+            <SuperInputText value={name} onChange={setNameCallback} onKeyPress={onKeyPressAddUser} error={error}
+                            onBlur={setNameCallback}/>
             <SuperButton disabled={!name} onClick={addUser}>add</SuperButton>
             <span className={s.counter}>{totalUsers}</span>
             {/*<span className={s.errorMessage}>{error}</span>*/}

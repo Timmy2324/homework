@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import { v1 } from 'uuid'
+import {v1} from 'uuid'
 import GreetingContainer from './GreetingContainer'
 
 // types
