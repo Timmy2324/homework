@@ -1,0 +1,10 @@
+.superSpan {
+    margin-bottom: 21px;
+    display: inline-block;
+    width: 200px;
+    padding: 0.375rem 0.75rem;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-bottom: 1px solid #bdbdbd;
+}
